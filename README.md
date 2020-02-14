@@ -1,7 +1,10 @@
 # Dockerfile for Lantern 
-Dockerfile for lantern(https://github.com/getlantern/lantern-binaries)
 
-Lastest verified version for Lantern 5.8.1. @ 2020.2.14
+About Lantern:
+https://getlantern.org/
+https://github.com/getlantern/lantern-binaries
+
+Lastest verified for Lantern 5.8.1. @ 2020.2.14
 
 ## Default ports for docker image:
 - 3128 tcp -> Http(s) proxy port
