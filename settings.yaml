@@ -1,0 +1,10 @@
+addr: '0.0.0.0:3128'
+autoLaunch: false
+autoReport: true
+lang: "zh-CN"
+localHTTPToken: lantern
+pacURL: ""
+proxyAll: true
+socksAddr: '0.0.0.0:3129'
+systemProxy: false
+uiAddr: 0.0.0.0:8080
