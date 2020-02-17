@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 MAINTAINER Richard Yu <xiaoqingfengatgm@gmail.com>
 # https://github.com/xiaoqingfengATGH/lantern
+# lastest lantern version: 5.8.3
 WORKDIR /root
 RUN apt-get update  && \
          apt-get -y install wget libwebkit2gtk-4.0-37 libappindicator3-1 && \
