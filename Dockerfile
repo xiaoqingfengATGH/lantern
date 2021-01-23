@@ -1,12 +1,12 @@
 FROM ubuntu:20.10
 MAINTAINER Richard Yu <xiaoqingfengatgm@gmail.com>
 # https://github.com/xiaoqingfengATGH/lantern
-# lastest lantern version: 6.2.9
+# lastest lantern version: 6.3.5
 WORKDIR /root
 RUN apt-get update  && \
          apt-get -y install wget libappindicator3-1 && \
-	 wget -O lantern.deb https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb?ver=6.2.9 && \
-	 wget -O settings.yaml https://raw.githubusercontent.com/xiaoqingfengATGH/lantern/master/settings.yaml?ver=6.2.9 && \
+	 wget -O lantern.deb https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb?ver=6.3.5 && \
+	 wget -O settings.yaml https://raw.githubusercontent.com/xiaoqingfengATGH/lantern/master/settings.yaml?ver=6.3.5 && \
          dpkg -i lantern.deb && \
          rm -rf lantern.deb && \
          apt-get -f install && \
