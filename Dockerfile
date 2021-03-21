@@ -4,7 +4,7 @@ MAINTAINER Richard Yu <xiaoqingfengatgm@gmail.com>
 # lastest lantern version: 6.4.5
 WORKDIR /root
 RUN apt-get update  && \
-         apt-get -y install wget libappindicator3-1 && \
+         apt-get -y install wget libappindicator3-1 libpcap0.8:amd64 && \
 	 wget -O lantern.deb https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb?ver=6.4.5 && \
 	 wget -O settings.yaml https://raw.githubusercontent.com/xiaoqingfengATGH/lantern/master/settings.yaml?ver=6.4.5 && \
          dpkg -i lantern.deb && \
